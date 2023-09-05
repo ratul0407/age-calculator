@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="assets/index-f60bbaaf.js"></script>
+    <link rel="stylesheet" href="assets/index-31c1e74a.css">
+  </head>
+  <body class="font-poppins">
+    <main>
+      <div class="input__wrapper">
+        <div class="day">
+          <label for="day">DAY</label>
+          <input type="number" tabindex="1" name="day" id="day" placeholder="DD" maxlength="2" required/>
+          <p></p>
+        
+        </div>
+        <div class="month">    
+          <label for="month"> MONTH </label>
+          <input
+            type="number"
+            tabindex="2"
+            name="month"
+            id="month"
+            placeholder="MM"
+            maxlength="2"
+            required />
+
+            <p></p>
+          </div>
+      
+  <div class="year">
+    <label for="year">YEAR</label>
+    <input
+      type="number"
+      tabindex="3"
+      id="year"
+      name="year"
+      maxlength="4"
+      placeholder="YYYY" required
+    />
+    <p></p>
+  </div>
+  
+      </div>
+
+      <div class=hr_img__wrapper>
+        <hr />
+      <img class="icon_down" src="icon-arrow.svg" alt="">
+        </svg>
+      </div>
+      <div class="span_h2__wrapper">
+        <h2><span class="current_year">--</span>Years</h2>
+        <h2><span class="current_month">--</span>Months</h2>
+        <h2><span class="current_day">--</span>Days</h2>
+      </div>
+    </main>
+    
+  </body>
+</html>
